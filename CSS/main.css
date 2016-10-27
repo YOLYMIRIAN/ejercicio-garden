@@ -1,11 +1,46 @@
-body { background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR50T-gr2MyGQnagI_DnbG9r3M8FnH_kXy-ZNcc3qJgh6LBxGTL")
+body { 
+    background-image: url("../IMAGES/bambu.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    
+    
     }
 h1{
     text-align:center;
-    color:yellow;
+    color: yellow;
     border-style:200px;
     font-family: cursive;
     font-size: 100px;
     background-image:url("http://us.123rf.com/450wm/icholakov/icholakov1101/icholakov110100009/8617587-green-bamboo-shoots-stacked-for-background.jpg")
 }
 
+h2,h3 { 
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
+    color: brown;
+    
+}
+
+p {
+    color: black;
+    font-weight:bold;
+    font-size: 18px;
+    
+}
+
+h1:hover {
+    color:orange;
+    font-size: 110px;  
+    transition: all 2s;
+}
+h2:hover {
+    color:green;
+    font-size: 45px;  
+    transition: all 2s;
+}
+h3:hover {
+    color:green;
+    font-size: 45px;  
+    transition: all 2s;
+}
